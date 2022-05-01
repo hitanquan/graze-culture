@@ -1,0 +1,22 @@
+{
+  "name": "graze-culture",
+  "version": "1.0.0",
+  "description": "",
+  "main": ".eslintrc.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://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@github.com/hitanquan/graze-culture.git"
+  },
+  "author": "tanquan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hitanquan/graze-culture/issues"
+  },
+  "homepage": "https://github.com/hitanquan/graze-culture#readme",
+  "dependencies": {
+    "@vant/weapp": "^1.10.2"
+  }
+}
