@@ -4,6 +4,12 @@ Page({
    */
   data: {
     active: 0,
+    icon: {
+      baicaoActive: './assets/imgs/baicao-active.png',
+      newsNormal: './assets/imgs/news-inactive.png',
+      puziNormal: './assets/imgs/puzi-inactive.png',
+      meNormal: './assets/imgs/me-inactive.png'
+    }
   },
   
   onChange(event) {

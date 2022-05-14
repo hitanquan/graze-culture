@@ -1,8 +1,65 @@
-<van-tabbar active="{{ active }}" bind:change="onChange">
-  <van-tabbar-item icon="home-o">百草</van-tabbar-item>
-  <van-tabbar-item icon="search">时文</van-tabbar-item>
-  <van-tabbar-item icon="friends-o">铺子</van-tabbar-item>
-  <van-tabbar-item icon="setting-o">我的</van-tabbar-item>
+<van-tabbar active="{{ active }}" 
+active-color="#819A3C"
+inactive-color="#000"
+bind:change="onChange">
+  <van-tabbar-item>
+    <image
+      slot="icon"
+      src="{{ icon.baicaoActive }}"
+      mode="aspectFit"
+      style="width: 30px; height: 18px;"
+    />
+    <image
+      slot="icon-active"
+      src="{{ icon.baicaoActive }}"
+      mode="aspectFit"
+      style="width: 30px; height: 18px;"
+    />
+    百草
+  </van-tabbar-item>
+  <van-tabbar-item info="1">
+    <image
+      slot="icon"
+      src="{{ icon.newsNormal }}"
+      mode="aspectFit"
+      style="width: 30px; height: 18px;"
+    />
+    <image
+      slot="icon-active"
+      src="{{ icon.newsNormal }}"
+      mode="aspectFit"
+      style="width: 30px; height: 18px;"
+    />
+    时文
+  </van-tabbar-item>
+  <van-tabbar-item>
+    <image
+      slot="icon"
+      src="{{ icon.puziNormal }}"
+      mode="aspectFit"
+      style="width: 30px; height: 18px;"
+    />
+    <image
+      slot="icon-active"
+      src="{{ icon.puziNormal }}"
+      mode="aspectFit"
+      style="width: 30px; height: 18px;"
+    />
+    铺子
+  </van-tabbar-item>
+  <van-tabbar-item>
+    <image
+      slot="icon"
+      src="{{ icon.meNormal }}"
+      mode="aspectFit"
+      style="width: 30px; height: 18px;"
+    />
+    <image
+      slot="icon-active"
+      src="{{ icon.meNormal }}"
+      mode="aspectFit"
+      style="width: 30px; height: 18px;"
+    />
+    我的
+  </van-tabbar-item>
 </van-tabbar>
-
-
