@@ -1,8 +1,9 @@
 {
   "pages":[
     "pages/index/index",
-    "pages/login/login",
-    "pages/logs/logs"
+    "pages/article/article",
+    "pages/shop/shop",
+    "pages/my/my"
   ],
   "window":{
     "backgroundTextStyle":"light",
@@ -10,5 +11,33 @@
     "navigationBarTitleText": "Weixin",
     "navigationBarTextStyle":"black"
   },
-  "sitemapLocation": "sitemap.json"
+  "sitemapLocation": "sitemap.json",
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "百草",
+        "iconPath": "/assets/imgs/baicao-active.png",
+        "selectedIconPath": "/assets/imgs/baicao-active.png"
+      },
+      {
+        "pagePath": "pages/article/article",
+        "text": "时文",
+        "iconPath": "/assets/imgs/news-inactive.png",
+        "selectedIconPath": "/assets/imgs/news-inactive.png"
+      },
+      {
+        "pagePath": "pages/shop/shop",
+        "text": "铺子",
+        "iconPath": "/assets/imgs/puzi-inactive.png",
+        "selectedIconPath": "/assets/imgs/puzi-inactive.png"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "text": "我的",
+        "iconPath": "/assets/imgs/me-inactive.png",
+        "selectedIconPath": "/assets/imgs/me-inactive.png"
+      }
+    ]
+  }
 }

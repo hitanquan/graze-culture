@@ -1,14 +1,11 @@
+// pages/my/my.js
 Page({
+
   /**
    * 页面的初始数据
    */
   data: {
-    active: 0,
-  },
-  
 
-  onTabChange(e) {
-    console.log(e.detail)
   },
 
   /**
