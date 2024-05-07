@@ -3,7 +3,9 @@ active="{{ active }}"
 bind:change="onTabChange"
 title-active-color="#819A3C"
 color="#819A3C">
-  <van-tab  title="关注" >内容 1</van-tab>
+  <van-tab  title="关注" >内容 1
+    <article-list-card></article-list-card>
+  </van-tab>
   <van-tab title="生活">内容 2</van-tab>
   <van-tab title="推荐">内容 3</van-tab>
   <van-tab title="图文">内容 4</van-tab>
