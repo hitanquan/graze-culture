@@ -1,6 +1,10 @@
 {
   "navigationStyle": "custom",
   "usingComponents": {
-    "custom-nav-bar": "/components/custom-nav-bar/custom-nav-bar"
+    "custom-nav-bar": "/components/custom-nav-bar/custom-nav-bar",
+    "van-tab": "@vant/weapp/tab/index",
+    "van-tabs": "@vant/weapp/tabs/index",
+    "van-tag": "@vant/weapp/tag/index",
+    "article-list-card": "/components/article-list-card/article-list-card"
   }
 }

@@ -4,6 +4,7 @@ Page({
    */
   data: {
     active: 0,
+    categoryData:['美国','英国','加拿大'],
     articleListData:[
       {
         username: '好价',
@@ -26,7 +27,6 @@ Page({
     ]
   },
   
-
   onTabChange(e) {
     console.log(e.detail)
   },
