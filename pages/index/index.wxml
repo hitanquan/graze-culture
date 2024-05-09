@@ -1,13 +1,3 @@
-<van-tabs swipeable
-active="{{ active }}" 
-bind:change="onTabChange"
-title-active-color="#819A3C"
-color="#819A3C">
-  <van-tab title="关注">
-    <article-list-card article-list-data="{{articleListData}}"></article-list-card>
-  </van-tab>
-  <van-tab title="生活">内容 2</van-tab>
-  <van-tab title="推荐">内容 3</van-tab>
-  <van-tab title="图文">内容 4</van-tab>
-  <van-tab title="视频">内容 5</van-tab>
-</van-tabs>
+<view>
+  <custom-nav-bar></custom-nav-bar>
+</view>

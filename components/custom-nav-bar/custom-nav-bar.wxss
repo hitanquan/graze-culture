@@ -1,0 +1,19 @@
+/* components/custom-nav-bar/custom-nav-bar.wxss */
+.page-nav-bar {
+  padding-top: 36px;
+}
+
+.logo-search-container {
+  display: flex;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+ /* background-image: url('/assets/navBar/bg.png'); */
+}
+
+.logo-img {
+  width: 41px;
+  height: 41px;
+}
