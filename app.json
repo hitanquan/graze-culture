@@ -17,26 +17,26 @@
       {
         "pagePath": "pages/index/index",
         "text": "百草",
-        "iconPath": "/assets/imgs/baicao-active.png",
-        "selectedIconPath": "/assets/imgs/baicao-active.png"
+        "iconPath": "/assets/tabBar/baicao-active.png",
+        "selectedIconPath": "/assets/tabBar/baicao-active.png"
       },
       {
         "pagePath": "pages/article/article",
         "text": "时文",
-        "iconPath": "/assets/imgs/news-inactive.png",
-        "selectedIconPath": "/assets/imgs/news-inactive.png"
+        "iconPath": "/assets/tabBar/news-inactive.png",
+        "selectedIconPath": "/assets/tabBar/news-inactive.png"
       },
       {
         "pagePath": "pages/shop/shop",
         "text": "铺子",
-        "iconPath": "/assets/imgs/puzi-inactive.png",
-        "selectedIconPath": "/assets/imgs/puzi-inactive.png"
+        "iconPath": "/assets/tabBar/puzi-inactive.png",
+        "selectedIconPath": "/assets/tabBar/puzi-inactive.png"
       },
       {
         "pagePath": "pages/my/my",
         "text": "我的",
-        "iconPath": "/assets/imgs/me-inactive.png",
-        "selectedIconPath": "/assets/imgs/me-inactive.png"
+        "iconPath": "/assets/tabBar/me-inactive.png",
+        "selectedIconPath": "/assets/tabBar/me-inactive.png"
       }
     ]
   }
