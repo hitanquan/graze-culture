@@ -1,6 +1,7 @@
 /* components/custom-nav-bar/custom-nav-bar.wxss */
 .page-nav-bar {
   padding-top: 36px;
+  background-color: #fff;
 }
 
 .logo-search-container {

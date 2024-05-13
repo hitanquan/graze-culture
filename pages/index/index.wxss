@@ -1,3 +1,13 @@
-.category-tab {
-  display: flex;
+.scroll-view-x {
+  width: 100%;
+  white-space: nowrap;
+  margin: 10px 0;
+}
+
+.tag {
+  padding: 0 2px;
+}
+
+.scroll-view-y {
+  height: 550px;
 }
