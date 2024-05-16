@@ -5,9 +5,10 @@ Page({
    * 页面的初始数据
    */
   data: {
+    screenHeight: 0,
     active: 0,
     categoryData:['美国','英国','加拿大','日本','韩国','泰国','巴基斯坦','丹麦'],
-    articleListData:[]
+    articleListData:[],
   },
   
   onTabChange(e) {
@@ -30,6 +31,10 @@ Page({
    * 生命周期函数--监听页面加载
    */
   onLoad(options) {
+    const sysInfo = wx.getSystemInfoSync()
+    this.setData({
+      screenHeight: sysInfo.screenHeight
+    });
     this.getActricleList()
   },
 

@@ -9,5 +9,9 @@
 }
 
 .scroll-view-y {
-  height: 550px;
+  height: 590px;
+}
+
+.no-more-text {
+  padding-bottom: 110px;
 }

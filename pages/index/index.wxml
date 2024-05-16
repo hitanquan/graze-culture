@@ -10,9 +10,9 @@
         <scroll-view scroll-x enable-flex class="scroll-view-x">
           <van-tag class="tag" size="large" color="#819A3C" wx:for="{{categoryData}}" wx:key="index">{{item}}</van-tag>
         </scroll-view>
-        <scroll-view scroll-y class="scroll-view-y">
+        <scroll-view scroll-y class="scroll-view-y" style="height: {{screenHeight - 90 - 24 - 44}}px;">
           <article-list-card article-list-data="{{articleListData}}"></article-list-card>
-          <view><text>没有更多了~</text></view>
+          <view class="no-more-text"><text>没有更多了~</text></view>
         </scroll-view>
       </van-tab>
       <van-tab title="生活">内容 2</van-tab>
