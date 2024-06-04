@@ -13,7 +13,7 @@ Page({
    */
   onLoad(options) {
     wx.navigateTo({
-      url: '/pages/login/login',
+      url: '/page/login/login',
       success: function(res) {
         console.log('跳转成功', res)
       },

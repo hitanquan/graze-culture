@@ -2,7 +2,7 @@
 <view class="page-nav-bar">
   <view class="logo-search-container">
     <view class="logo">
-      <image class="logo-img" src="/assets/navBar/bg.png"></image>
+      <image class="logo-img" src="https://636c-cloud-dev-server-3frnvwnfaf34ffa-1308643939.tcb.qcloud.la/bg.png?sign=9fe38a4bc77f8c9350fd8d309eca2108&t=1717482445"></image>
       <text>社长</text>
     </view>
     <view class="search">

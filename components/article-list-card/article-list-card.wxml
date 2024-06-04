@@ -18,15 +18,15 @@
 
   <view class="action">
     <view>
-      <image class="icon" src="/assets/article/comment.png"></image>
+      <image class="icon" src="https://636c-cloud-dev-server-3frnvwnfaf34ffa-1308643939.tcb.qcloud.la/article/comment.png?sign=566b7b4573b5ba2ff71301c043ba47db&t=1717482936"></image>
       {{item.commentCount}}
     </view>
     <view>
-      <image class="icon" src="/assets/article/share.png"></image>
+      <image class="icon" src="https://636c-cloud-dev-server-3frnvwnfaf34ffa-1308643939.tcb.qcloud.la/article/share.png?sign=14698f769aef972d35dbfc5c23427e42&t=1717483062"></image>
       {{item.shareCount}}
     </view>
     <view>
-      <image class="icon" src="/assets/article/poster.png">
+      <image class="icon" src="https://636c-cloud-dev-server-3frnvwnfaf34ffa-1308643939.tcb.qcloud.la/article/poster.png?sign=909f8ccaea0367922d6cffb98baf182b&t=1717483040">
       </image>
       海报
     </view>

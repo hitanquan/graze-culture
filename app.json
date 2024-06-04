@@ -1,10 +1,9 @@
 {
   "pages":[
-    "pages/index/index",
-    "pages/article/article",
-    "pages/shop/shop",
-    "pages/my/my",
-    "pages/login/login"
+    "page/tabBar/index/index",
+    "page/tabBar/article/article",
+    "page/tabBar/shop/shop",
+    "page/tabBar/my/my"
   ],
   "window":{
     "backgroundTextStyle":"light",
@@ -16,29 +15,36 @@
   "tabBar": {
     "list": [
       {
-        "pagePath": "pages/index/index",
+        "pagePath": "page/tabBar/index/index",
         "text": "百草",
         "iconPath": "/assets/tabBar/baicao-active.png",
         "selectedIconPath": "/assets/tabBar/baicao-active.png"
       },
       {
-        "pagePath": "pages/article/article",
+        "pagePath": "page/tabBar/article/article",
         "text": "时文",
         "iconPath": "/assets/tabBar/news-inactive.png",
         "selectedIconPath": "/assets/tabBar/news-inactive.png"
       },
       {
-        "pagePath": "pages/shop/shop",
+        "pagePath": "page/tabBar/shop/shop",
         "text": "铺子",
         "iconPath": "/assets/tabBar/puzi-inactive.png",
         "selectedIconPath": "/assets/tabBar/puzi-inactive.png"
       },
       {
-        "pagePath": "pages/my/my",
+        "pagePath": "page/tabBar/my/my",
         "text": "我的",
         "iconPath": "/assets/tabBar/me-inactive.png",
         "selectedIconPath": "/assets/tabBar/me-inactive.png"
       }
     ]
-  }
+  },
+  "subPackages": [
+    {
+      "root": "page/login",
+      "pages": [
+      ]
+    }
+  ]
 }
