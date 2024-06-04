@@ -12,7 +12,15 @@ Page({
    * 生命周期函数--监听页面加载
    */
   onLoad(options) {
-
+    wx.navigateTo({
+      url: '/pages/login/login',
+      success: function(res) {
+        console.log('跳转成功', res)
+      },
+      fail: function(res) {
+        console.log('跳转失败', res)
+      }
+    })
   },
 
   /**

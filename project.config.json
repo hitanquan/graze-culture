@@ -55,7 +55,7 @@
     "condition": false
   },
   "compileType": "miniprogram",
-  "libVersion": "2.19.4",
+  "libVersion": "3.4.4",
   "appid": "wx047b6eba923b01d1",
   "projectname": "graze-culture",
   "condition": {},
