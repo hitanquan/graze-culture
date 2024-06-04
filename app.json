@@ -42,9 +42,11 @@
   },
   "subPackages": [
     {
-      "root": "page/login",
+      "root": "page/module",
       "pages": [
+        "pages/login/login"
       ]
     }
-  ]
+  ],
+  "lazyCodeLoading": "requiredComponents"
 }
