@@ -1,10 +1,10 @@
 <!--components/custom-nav-bar/custom-nav-bar.wxml-->
 <view class="page-nav-bar">
-  <view class="logo-search-container">
+  <view class="logo-search-container" style="padding-top: {{safeAreaTop}}px;">
     <view class="logo">
-      <image class="logo-img" src="https://636c-cloud-dev-server-3frnvwnfaf34ffa-1308643939.tcb.qcloud.la/bg.png?sign=9fe38a4bc77f8c9350fd8d309eca2108&t=1717482445"></image>
-      <text>社长</text>
+      <image class="logo-img" src="https://636c-cloud-dev-server-3frnvwnfaf34ffa-1308643939.tcb.qcloud.la/user.png?sign=40a40baa1e4b9c90b4fb36e744502cc9&t=1717493205"></image>
     </view>
+    <view class="title"> <text>社长</text></view> 
     <view class="search">
       <van-search
         value="{{ searchValue }}"

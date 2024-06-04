@@ -1,5 +1,5 @@
 <view>
-  <custom-nav-bar></custom-nav-bar>
+  <custom-nav-bar safeAreaTop="{{safeAreaTop}}"></custom-nav-bar>
   <van-tabs 
     swipeable
     active="{{ active }}" 

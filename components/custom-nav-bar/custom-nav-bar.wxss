@@ -1,6 +1,5 @@
 /* components/custom-nav-bar/custom-nav-bar.wxss */
 .page-nav-bar {
-  padding-top: 36px;
   background-color: #fff;
 }
 
@@ -9,12 +8,23 @@
 }
 
 .logo {
+  width: 61.5px;
+  height: 60.5px;
+  margin-left: 12.5px ;
   display: flex;
+  justify-content: center;
   align-items: center;
- /* background-image: url('/assets/navBar/bg.png'); */
+  background: url('https://636c-cloud-dev-server-3frnvwnfaf34ffa-1308643939.tcb.qcloud.la/bg.png?sign=9fe38a4bc77f8c9350fd8d309eca2108&t=1717482445') no-repeat;
 }
 
 .logo-img {
-  width: 41px;
-  height: 41px;
+  width: 40.5px;
+  height: 43.5px;
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  margin-left: 12.5px;
+  font-size: 30px;
 }

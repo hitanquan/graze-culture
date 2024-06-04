@@ -5,6 +5,7 @@ Page({
    * 页面的初始数据
    */
   data: {
+    safeAreaTop: 0,
     screenHeight: 0,
     active: 0,
     categoryData:['美国','英国','加拿大','日本','韩国','泰国','巴基斯坦','丹麦'],
@@ -33,6 +34,7 @@ Page({
   onLoad(options) {
     const sysInfo = wx.getSystemInfoSync()
     this.setData({
+      safeAreaTop: sysInfo.safeArea.top,
       screenHeight: sysInfo.screenHeight
     });
     this.getActricleList()
