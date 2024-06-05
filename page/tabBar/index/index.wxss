@@ -13,5 +13,7 @@
 }
 
 .no-more-text {
-  padding-bottom: 110px;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 10px;
 }

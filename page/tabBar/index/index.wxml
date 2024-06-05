@@ -10,7 +10,7 @@
         <scroll-view scroll-x enable-flex class="scroll-view-x">
           <van-tag class="tag" size="large" color="#819A3C" wx:for="{{categoryData}}" wx:key="index">{{item}}</van-tag>
         </scroll-view>
-        <scroll-view scroll-y class="scroll-view-y" style="height: {{screenHeight - 90 - 24 - 44}}px;">
+        <scroll-view scroll-y class="scroll-view-y" style="height: {{screenHeight - 90 - 94 - 44 - safeAreaTop}}px;">
           <article-list-card article-list-data="{{articleListData}}"></article-list-card>
           <view class="no-more-text"><text>没有更多了~</text></view>
         </scroll-view>
