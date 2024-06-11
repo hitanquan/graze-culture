@@ -16,5 +16,24 @@ Page({
     // event.detail 为当前输入的值
   },
   handleLogin(e) {
+    wx.login({
+      success (res) {
+        console.log(res)
+        if (res.code) {
+          //发起网络请求
+          wx.request({
+            url: 'https://api.weixin.qq.com/sns/jscode2session',
+            data: {
+              appid: 'wx047b6eba923b01d1',
+              secret: '',
+              js_code: res.code,
+              grant_type: 'authorization_code'
+            }
+          })
+        } else {
+          console.log('登录失败！' + res.errMsg)
+        }
+      }
+    })
   }
 })
