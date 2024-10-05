@@ -14,7 +14,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background: url('https://636c-cloud-dev-server-3frnvwnfaf34ffa-1308643939.tcb.qcloud.la/bg.png?sign=9fe38a4bc77f8c9350fd8d309eca2108&t=1717482445') no-repeat;
 }
 
 .logo-img {
