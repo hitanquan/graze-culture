@@ -1,33 +1,35 @@
 <!--components/article-list-card/article-list-card.wxml-->
 <view class="page-container" wx:for="{{ articleListData }}" wx:key="index">
-  <view class="user-info">
-    <image class="avatar" src="{{item.avatar}}"></image>
-    <text>{{item.username}}</text>
-  </view>
-  
-  <view>
-    <image class="cover" src="{{item.cover}}"></image>
-  </view>
-
-  <view>
-    <text>{{item.title}}</text>
-  </view>
-  <view>
-    <text>{{item.describe}}</text>
-  </view>
-
-  <view class="action">
-    <view>
-      <image class="icon" src="/assets/article/comment.png"></image>
-      {{item.commentCount}}
+  <view class="article-card">
+    <view class="user-info">
+      <image class="avatar" src="{{item.avatar}}"></image>
+      <text>{{item.username}}</text>
     </view>
+
     <view>
-      <image class="icon" src="/assets/article/share.png"></image>
-      {{item.shareCount}}
+      <image class="cover" src="{{item.cover}}"></image>
     </view>
-    <view>
-      <image class="icon" src="/assets/article/poster.png"></image>
-      海报
+
+    <view class="title">
+      <text>{{item.title}}</text>
+    </view>
+    <view class="describe">
+      <text>{{item.describe}}</text>
+    </view>
+
+    <view class="action-container">
+      <view class="action">
+        <image class="icon" src="/assets/article/comment.png"></image>
+        {{item.commentCount}}
+      </view>
+      <view class="action">
+        <image class="icon" src="/assets/article/share.png"></image>
+        {{item.shareCount}}
+      </view>
+      <view class="action">
+        <image class="icon" src="/assets/article/poster.png"></image>
+        海报
+      </view>
     </view>
   </view>
 </view>

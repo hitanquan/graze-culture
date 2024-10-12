@@ -1,23 +1,37 @@
 <view>
   <custom-nav-bar safeAreaTop="{{safeAreaTop}}"></custom-nav-bar>
-  <van-tabs 
-    swipeable
-    active="{{ active }}" 
-    bind:change="onTabChange"
-    title-active-color="#819A3C"
-    color="#819A3C">
-      <van-tab title="关注">
+  <van-tabs swipeable active="{{ active }}" bind:change="onTabChange" title-active-color="#819A3C" color="#819A3C">
+    <van-tab title="关注" name="关注">
+      内容 1
+    </van-tab>
+    <van-tab title="生活" name="生活">内容 2</van-tab>
+    <van-tab title="推荐">
+      <scroll-view scroll-y class="scroll-view-y" style="height: {{screenHeight - 90 - 94 -        safeAreaTop}}px;">
+        <swiper class="swiper" indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}"    interval="{{interval}}" duration="{{duration}}">
+          <block wx:for="{{swiperImg}}" wx:key="index">
+            <swiper-item>
+              <image class="swiper-img" src="{{item.img}}"></image>
+            </swiper-item>
+          </block>
+        </swiper>
         <scroll-view scroll-x enable-flex class="scroll-view-x">
-          <van-tag class="tag" size="large" color="#819A3C" wx:for="{{categoryData}}" wx:key="index">{{item}}</van-tag>
+          <van-tag class="tag" size="large" color="#819A3C" wx:for="{{categoryData}}" wx:key="index">{{item}}
+          </van-tag>
         </scroll-view>
-        <scroll-view scroll-y class="scroll-view-y" style="height: {{screenHeight - 90 - 94 - 44 - safeAreaTop}}px;">
-          <article-list-card article-list-data="{{articleListData}}"></article-list-card>
-          <view class="no-more-text"><text>没有更多了~</text></view>
-        </scroll-view>
-      </van-tab>
-      <van-tab title="生活">内容 2</van-tab>
-      <van-tab title="推荐">内容 3</van-tab>
-      <van-tab title="图文">内容 4</van-tab>
-      <van-tab title="视频">内容 5</van-tab>
+        <article-list-card article-list-data="{{articleListData}}"></article-list-card>
+        <view class="no-more-text"><text>没有更多了~</text></view>
+      </scroll-view>
+    </van-tab>
+    <van-tab title="图文" name="图文">
+      <scroll-view scroll-x enable-flex class="scroll-view-x">
+        <van-tag class="tag" size="large" color="#819A3C" wx:for="{{categoryData}}" wx:key="index">{{item}}
+        </van-tag>
+      </scroll-view>
+      <scroll-view scroll-y class="scroll-view-y" style="height: {{screenHeight - 90 - 94 - 44 - safeAreaTop}}px;">
+        <article-list-card article-list-data="{{articleListData}}"></article-list-card>
+        <view class="no-more-text"><text>没有更多了~</text></view>
+      </scroll-view>
+    </van-tab>
+    <van-tab title="视频" name="视频">内容 5</van-tab>
   </van-tabs>
 </view>

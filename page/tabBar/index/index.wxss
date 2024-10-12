@@ -1,3 +1,13 @@
+.swiper {
+  background-color: #fff;
+  width: 100%;
+  padding: 10px;
+}
+
+.swiper-img {
+  width: 95%;
+}
+
 .scroll-view-x {
   width: 100%;
   white-space: nowrap;

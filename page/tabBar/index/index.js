@@ -1,5 +1,3 @@
-const db = wx.cloud.database()
-
 Page({
   /**
    * 页面的初始数据
@@ -7,8 +5,22 @@ Page({
   data: {
     safeAreaTop: 0,
     screenHeight: 0,
-    active: 0,
+    active: 2,
     categoryData:['美国','英国','加拿大','日本','韩国','泰国','巴基斯坦','丹麦'],
+    background: ['/assets/swiper/swiper1.png', 'demo-text-2', 'demo-text-3'],
+    swiperImg: [
+      {
+        img: '/assets/swiper/swiper1.png'
+      },
+      {
+        img: '/assets/swiper/swiper2.png'
+      }
+    ],
+    indicatorDots: true,
+    vertical: false,
+    autoplay: true,
+    interval: 2000,
+    duration: 500,
     articleListData:[
       {
         username: '好价',
@@ -72,6 +84,15 @@ Page({
         "describe": "可持续发展是当今社会的重要议题，本文介绍几个成功的环保实践案例。",
         "commentCount": 18,
         "shareCount": 9
+      },
+      {
+        "username": "王八",
+        "avatar": "/assets/article/avatar2.png",
+        "title": "AI技术的发展前景",
+        "cover": "/assets/article/cover2.png",
+        "describe": "AI最近几年挺火，作为上班一族要学习ai相关的知识和工具，拥抱技术。",
+        "commentCount": 128,
+        "shareCount": 90
       }
     ]
   },
