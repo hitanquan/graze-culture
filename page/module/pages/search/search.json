@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "食草文化",
+  "usingComponents": {
+    "van-search": "@vant/weapp/search/index"
+  }
+}

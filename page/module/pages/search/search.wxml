@@ -1,0 +1,10 @@
+<!--page/module/pages/search/search.wxml-->
+<van-search
+  shape="round"
+  show-action
+  value="{{ value }}"
+  placeholder="请输入搜索关键词"
+  bind:change="onChange"
+  bind:search="onSearch"
+  bind:cancel="onCancel"
+/>

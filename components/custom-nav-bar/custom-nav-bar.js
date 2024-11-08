@@ -22,5 +22,10 @@ Component({
    * 组件的方法列表
    */
   methods: {
+    onFocus(val) {
+      wx.navigateTo({
+        url: '/page/module/pages/search/search',
+      })
+    }
   }
 })
