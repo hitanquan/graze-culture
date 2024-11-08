@@ -2,14 +2,15 @@
 <view class="page-nav-bar">
   <view class="logo-search-container" style="padding-top: {{safeAreaTop}}px;">
     <view class="logo">
-      <image class="logo-img" src="/assets/navBar/bg.png"></image>
+      <image class="logo-img-bg" src="/assets/navBar/bg.png"></image>
+      <image class="logo-img-user" src="/assets/navBar/user.png"></image>
     </view>
-    <view class="title"> <text>社长</text></view> 
+    <view class="title"> <text>社长</text></view>
     <view class="search">
       <van-search
         value="{{ searchValue }}"
         shape="round"
-        placeholder="请输入搜索关键词"
+        placeholder="搜索关键词"
       />
     </view>
   </view>

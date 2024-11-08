@@ -8,22 +8,32 @@
 }
 
 .logo {
-  width: 61.5px;
-  height: 60.5px;
-  margin-left: 12.5px ;
+  width: 62px;
+  height: 61px;
+  margin-left: 5px ;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.logo-img {
-  width: 40.5px;
-  height: 43.5px;
+.logo-img-bg {
+  width: 40px;
+  height: 40px;
+}
+
+.logo-img-user {
+  width: 30px; 
+  height: 28px; 
+  position: fixed;
 }
 
 .title {
   display: flex;
   align-items: center;
-  margin-left: 12.5px;
-  font-size: 30px;
+  font-size: 25px;
+  margin-left: -5px;
+}
+
+.search {
+  width: 170px;
 }
