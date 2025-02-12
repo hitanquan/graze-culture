@@ -5,9 +5,9 @@ Component({
    * 组件的属性列表
    */
   properties: {
-    articleListData: {
-      type: Array,
-      value: []
+    article: {
+      type: Object,
+      value: null
     },
   },
 
@@ -22,6 +22,14 @@ Component({
    * 组件的方法列表
    */
   methods: {
-
+    handleTap() {
+      
+      const { article } = this.properties;
+      this.triggerEvent('click', {
+        title: article.title, 
+        description: article.description,
+        article: article // 传递整个文章对象，以防需要
+      })
+    }
   }
 })

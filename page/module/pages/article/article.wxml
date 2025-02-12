@@ -1,0 +1,7 @@
+<!--page/module/pages/article/article.wxml-->
+<view class="articleDetailContainer">
+ <view class="title"> {{article.title}}</view>
+  <image class="avatar" src="{{article.avatar}}"></image>
+  <text class="username">{{article.username}}</text>
+  <view>{{article.description}}</view>
+</view>
